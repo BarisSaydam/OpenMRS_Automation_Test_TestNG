@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="All Test Suite" >
+    <test name="Test01">
+        <parameter name="BrowserTipi" value="Chrome"></parameter>
+        <classes>
+            <class name="US_405.TC_405_CrossTesting">
+            </class>
+        </classes>
+    </test>
+    <test name="Test02">
+        <parameter name="BrowserTipi" value="Edge"></parameter>
+        <classes>
+            <class name="US_405.TC_405_CrossTesting">
+            </class>
+        </classes>
+    </test>
+</suite>

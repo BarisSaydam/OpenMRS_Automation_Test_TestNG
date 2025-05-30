@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="mySuit">
+    <test name="test1">
+
+        <parameter name="BrowserTipi" value="edge"></parameter>
+        <!-- Çalışıcak classların yazıldığı bölüm-->
+        <classes>
+            <class name="US_401.TC_401"></class>
+            <class name="US_402.TC_402"></class>
+            <class name="US_403.TC_403"></class>
+            <class name="US_405.TC_405"></class>
+            <class name="US_406.TC_406"></class>
+            <class name="US_407.TC_407"></class>
+            <class name="US_409.TC_409"></class>
+        </classes>
+
+        <!-- Hangi grupların çalıştırılacağı bölüm-->
+        <groups>
+            <run>
+                <include name="Smoke"></include>
+            </run>
+        </groups>
+
+    </test>
+</suite>

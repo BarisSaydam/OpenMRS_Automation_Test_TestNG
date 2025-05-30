@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/erdem/IdeaProjects/OpenMRSProject/src">
+        <classes>
+            <class name="US_404.TC_404_RegisterAPatient">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+            <class name="US_410.TC_410_InCorrect_TimeZone">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+            <class name="US_411.TC_411_TimeZone">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
